@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+html{
+    @apply font-body bg-gray-50 text-gray-800 antialiased !important;
+    direction: rtl;
+    text-align: right;
+}
+@font-face {
+    font-family: 'Tanha';
+    src: url('../fonts/Tanha.eot');
+    src: url('../fonts/Tanha.eot?#iefix') format('Tanha-opentype'),
+    url('../fonts/Tanha.woff') format('woff'),
+    url('../fonts/Tanha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rtl{
+    direction: rtl;
+    text-align: right;
+}
+.ltr {
+    direction: ltr;
+    text-align: left;
+}
